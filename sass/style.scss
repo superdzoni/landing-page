@@ -9,5 +9,11 @@ $font-body: 'PT Serif', serif;
 $font-header: 'Lato', sans-serif;
 
 body {
-    font-family: $font;
+    font-family: $font-body;
+}
+
+/* Header */
+
+h1 {
+    font-size: 120px;
 }
