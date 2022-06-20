@@ -15,6 +15,14 @@ nav, h2, h5 {
 
 /* Header */
 
+.navbar {
+    margin-left: 170px;
+    margin-right: 100px;
+    overflow: hidden;
+    max-width: 1140px;
+     
+}
+
 h1 {
     font-size: 64px;
     font-family: $font-header;
