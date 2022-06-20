@@ -98,9 +98,9 @@ h2 {
   background-color: #f7f7f7;
 }
 
-.example img {
-  width: 288px;
-  height: 288px;
+.example {
+  width: 210px;
+  height: 210px;
   -o-object-fit: cover;
      object-fit: cover;
 }
