@@ -50,6 +50,7 @@ h1 {
     font-size: 14px;
     font-weight: 900;
     font-family: $font-header;
+    padding: 1rem 3rem;
 }
 
 h3 {
@@ -142,4 +143,29 @@ h2 {
     color: $color-five;
     font-family: $font-header;
     margin: 32px 0 24px 0;
+}
+
+/* Media */
+
+@media (max-width: 767px) {
+
+    h1, h2 {
+    font-size: 20px;
+    }
+    
+    h3 {
+    font-size: 16px;
+    }
+
+    .btn {
+    padding: 0.5rem 1rem;
+    margin-bottom: none;
+    }
+
+    .card-img-overlay {
+        width: fit-content;
+    }
+    .navbar {
+        margin: 0;
+    }
 }
