@@ -107,3 +107,25 @@ h2 {
   object-fit: cover;
 }
 
+/* Footer */
+
+.social-icon i {
+    font-size: 20px;
+    background: $color-four;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    color: $color-two;
+    border-radius: 50%;
+    text-align: center;
+    }
+
+.social-icon ul {
+    text-align: center;
+    margin: 24px 0 24px 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    font-size: 0;     
+}
